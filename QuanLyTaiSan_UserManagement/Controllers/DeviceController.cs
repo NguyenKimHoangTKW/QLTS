@@ -910,12 +910,17 @@ namespace QuanLyTaiSan_UserManagement.Controllers
                 var Name_Parent = data.TypeComponantOfDevice(item).Select(i => new { i.TypeSymbolParents, i.NameTypeParents }).FirstOrDefault();
                 var lstChild = data.TypeComponantOfDevice(item).Where(x => x.IsDeleted == false).ToList();
 
-                Array a2 = lstChild.ToArray();
-                numbers.Add(new TypeComponantOfDevice_Result { NameTypeParents = Name_Parent.NameTypeParents, TypeSymbolParents = Name_Parent.TypeSymbolParents});
+                numbers.Add(new TypeComponantOfDevice_Result
+                {
+                    NameTypeParents = Name_Parent.NameTypeParents,
+                    TypeSymbolParents = Name_Parent.TypeSymbolParents,
+                    NameTypeChildren = lstChild.Select(c => c.NameTypeChildren).FirstOrDefault(),
+                    TypeSymbolChildren = lstChild.Select(c => c.TypeSymbolChildren).FirstOrDefault()
+                });
             }
+
             ViewData["TypeParentTypeChild"] = numbers;
             return View();
-            // public Array numbers { get; set; }
         }
 
         [HasCredential(RoleID = "DELETE_TYPE_PR_DV")]

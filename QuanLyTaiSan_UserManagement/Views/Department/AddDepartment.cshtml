@@ -44,10 +44,9 @@
                         <label class="col-md-2 "> Người quản lí </label>
                         <div class="col-md-6">
                             <select class="input-large form-control myctr form-control" name="ManagerProject" id="user">
-                                <option selected> Chọn người quản lí </option>
-                                @foreach (var item in ViewData["User"] as IList<User>)
+                                @foreach (var item in (IEnumerable<SelectListItem>)ViewData["UsersList"])
                                 {
-                                    <option value="@item.Id" @(ViewBag.ManagerProject == @item.Id ? "selected" : "")> @item.FullName </option>
+                                    <option value="@item.Value" @(ViewBag.ManagerProject == @item.Value ? "selected" : "")> @item.Text </option>
                                 }
                             </select>
                         </div>

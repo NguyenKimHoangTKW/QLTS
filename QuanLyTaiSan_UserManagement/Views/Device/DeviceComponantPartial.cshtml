@@ -61,30 +61,29 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach (var item1 in @item.numbers as IList<ChildrenOfDevice_Result>)
-                            {
-                                <tr class="gradeA" id="row_@item1.Id">
+
+                                <tr class="gradeA" id="row_@item.Id">
                                     @*<td class="center" style="width:2%"><input type="checkbox" class="chkCheckBoxId checkbox check" name="check" value="@item.Id" /></td>*@
-                                    <td style="width:10%">@item1.DeviceCode</td>
-                                    <td style="width:25%">@item1.DeviceName</td>
-                                    <td style="width:10%; text-align:right" class="hidden-phone">@item1.Price</td>
-                                    <td style="width:24%" class="hidden-phone">@Html.Raw(item1.Configuration)</td>
-                                    <td style="width:15%" class="hidden-phone">@Html.Raw(Convert.ToInt32(item1.StatusRepair).GetEnumDescription(typeof(eStatus.RepairStatus)))</td>
-                                    <td style="width:10%" class="center">@Html.Raw(Convert.ToInt32(item1.TypeComponant).GetEnumDescription(typeof(eStatus.Type_TypeCom))) </td>
+                                    <td style="width:10%">@item.DeviceCode</td>
+                                    <td style="width:25%">@item.DeviceName</td>
+                                    <td style="width:10%; text-align:right" class="hidden-phone">@item.Price</td>
+                                    <td style="width:24%" class="hidden-phone">@Html.Raw(item.Configuration)</td>
+                                    <td style="width:15%" class="hidden-phone">@Html.Raw(Convert.ToInt32(item.StatusRepair).GetEnumDescription(typeof(eStatus.RepairStatus)))</td>
+                                    <td style="width:10%" class="center">@Html.Raw(Convert.ToInt32(item.TypeComponant).GetEnumDescription(typeof(eStatus.Type_TypeCom))) </td>
                                     <td style="width:3%" class="center">
                                         @*@if (Session["AuthenticationFeature"] != null && (Session["AuthenticationFeature"] as List<SystemFeature>).Any(k => k.ControllerName.Equals("Project") && k.ActionName.Equals("EditProject")))
                                             {*@
-                                        <a class="edit" href="@Url.Action("EditDevice", "Device", new { Id = @item1.DeviceCodeChildren })"><i class="icon-eye-open"></i></a>
+                                        <a class="edit" href="@Url.Action("EditDevice", "Device", new { Id = @item.DeviceCodeChildren })"><i class="icon-eye-open"></i></a>
                                         @*}*@
                                     </td>
                                     <td style="width:3%" class="center">
                                         @*@if (Session["AuthenticationFeature"] != null && (Session["AuthenticationFeature"] as List<SystemFeature>).Any(k => k.ControllerName.Equals("Project") && k.ActionName.Equals("DeleteProject1")))
                                             {*@
-                                        <a class="edit" href="javascript:void(0)" id="DeleteItem" onclick="ConfirmDeleteDv(@item1.DeviceCodeChildren)"><i class="icon-trash"></i></a>
+                                        <a class="edit" href="javascript:void(0)" id="DeleteItem" onclick="ConfirmDeleteDv(@item.DeviceCodeChildren)"><i class="icon-trash"></i></a>
                                         @*}*@
                                     </td>
                                 </tr>
-                            }
+                            
                     </table>
                 </div>
             </div>

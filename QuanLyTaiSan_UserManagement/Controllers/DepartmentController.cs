@@ -46,8 +46,7 @@ namespace QuanLyTaiSan_UserManagement.Controllers
         [HasCredential(RoleID = "ADD_DEPARTMENT")]
         public ActionResult AddDepartment()
         {
-            ViewData["User"] = Ql.Users.Where(x => x.Status != 1 && x.IsDeleted == false).ToList();
-            ViewData["User"] = new SelectList(Ql.Users);
+            ViewData["UsersList"] = new SelectList(Ql.Users.Where(x => x.Status != 1 && x.IsDeleted == false), "Id", "FullName");
             return View();
         }
         [HttpPost]

@@ -16,40 +16,35 @@
             </div>
             <div class="col-md-12" id="DsChildType" name="DsChildType">
                 @foreach (var item in ViewData["TypeParentTypeChild"] as IList<TypeComponantOfDevice_Result>)
-
-            { <div class="panel-body tcssMarT ">
-                    <div class="row m-bot15">
-                        <h5 class="text">
-                            <span class="text" style="font-size:larger; font-weight: bold;">@item.NameTypeParents </span>
-                        </h5>
-
-                    </div>
-                    <div class="tcssMarT tcsspadtop">
-
-                        <div class="adv-table">
-                            <table class="display  table table-bordered table-striped table-hover table-responsive" id="example_Type" style="width:30% ; float:left">
-                                <thead>
-                                    <tr>
-                                        <th style="text-align:center ; width:80%">Loại thiết bị con </th>
-                                        <th style="text-align:center ; width:20px">Xóa</th>
-
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @foreach (var item1 in @item.numbers as IList<TypeComponantOfDevice_Result>)
-                                    {
-                                        <tr class="gradeA" id="row_@item1.TypeSymbolChildren">
-                                            <td style="width:80%">@item1.NameTypeChildren</td>
-                                            <td style="width:20%" class="center">
-                                                <a class="edit" href="#" onclick="DeleteTypeChildOfParent(@item1.TypeSymbolChildren,@item.TypeSymbolParents)"><i class="icon-trash"></i></a>
-                                        </tr>
-                                    }
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                }
+{
+    <div class="panel-body tcssMarT">
+        <div class="row m-bot15">
+            <h5 class="text">
+                <span class="text" style="font-size:larger; font-weight: bold;">@item.NameTypeParents </span>
+            </h5>
+        </div>
+        <div class="tcssMarT tcsspadtop">
+            <div class="adv-table">
+                <table class="display  table table-bordered table-striped table-hover table-responsive" id="example_Type" style="width:30% ; float:left">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center ; width:80%">Loại thiết bị con </th>
+                            <th style="text-align:center ; width:20px">Xóa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="gradeA" id="row_@item.TypeSymbolChildren">
+                            <td style="width:80%">@item.NameTypeChildren</td>
+                            <td style="width:20%" class="center">
+                                <a class="edit" href="#" onclick="DeleteTypeChildOfParent('@item.TypeSymbolChildren', '@item.TypeSymbolParents')"><i class="icon-trash"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
             </div>
         </section>
     </div>

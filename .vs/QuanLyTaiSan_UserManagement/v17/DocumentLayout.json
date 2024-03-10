@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "D:\\LTWEB\\DATN_QLTSCongTy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|d:\\ltweb\\datn_qltscongty\\quanlytaisan_usermanagement\\views\\employees\\usermanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|solutionrelative:quanlytaisan_usermanagement\\views\\employees\\usermanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|d:\\ltweb\\datn_qltscongty\\quanlytaisan_usermanagement\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|solutionrelative:quanlytaisan_usermanagement\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|D:\\LTWEB\\DATN_QLTSCongTy\\quanlytaisan_usermanagement\\views\\share\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|solutionrelative:quanlytaisan_usermanagement\\views\\share\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|D:\\LTWEB\\DATN_QLTSCongTy\\quanlytaisan_usermanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|solutionrelative:quanlytaisan_usermanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|D:\\LTWEB\\DATN_QLTSCongTy\\quanlytaisan_usermanagement\\views\\account_app_new\\login_new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|solutionrelative:quanlytaisan_usermanagement\\views\\account_app_new\\login_new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|D:\\LTWEB\\DATN_QLTSCongTy\\quanlytaisan_usermanagement\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|solutionrelative:quanlytaisan_usermanagement\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|D:\\LTWEB\\DATN_QLTSCongTy\\quanlytaisan_usermanagement\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|d:\\ltweb\\datn_qltscongty\\quanlytaisan_usermanagement\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|solutionrelative:quanlytaisan_usermanagement\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\obj\\Debug\\.NETFramework,Version=v4.8.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyTaiSan_UserManagement\\obj\\Debug\\.NETFramework,Version=v4.8.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|d:\\ltweb\\datn_qltscongty\\quanlytaisan_usermanagement\\views\\device\\editdevice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|solutionrelative:quanlytaisan_usermanagement\\views\\device\\editdevice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|d:\\ltweb\\datn_qltscongty\\quanlytaisan_usermanagement\\views\\device\\managertypeparent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBBDA718-1B5D-487F-9283-48E390E5A9CC}|QuanLyTaiSan_UserManagement\\QuanLyTaiSan_UserManagement.csproj|solutionrelative:quanlytaisan_usermanagement\\views\\device\\managertypeparent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,100 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserManagement.cshtml",
-              "DocumentMoniker": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Views\\Employees\\UserManagement.cshtml",
-              "RelativeDocumentMoniker": "QuanLyTaiSan_UserManagement\\Views\\Employees\\UserManagement.cshtml",
-              "ToolTip": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Views\\Employees\\UserManagement.cshtml",
-              "RelativeToolTip": "QuanLyTaiSan_UserManagement\\Views\\Employees\\UserManagement.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAC4AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-09T06:22:10.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "QuanLyTaiSan_UserManagement\\Controllers\\EmployeesController.cs",
-              "ToolTip": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "QuanLyTaiSan_UserManagement\\Controllers\\EmployeesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T06:20:12.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_LayoutPage1.cshtml",
-              "DocumentMoniker": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Views\\Share\\_LayoutPage1.cshtml",
-              "RelativeDocumentMoniker": "QuanLyTaiSan_UserManagement\\Views\\Share\\_LayoutPage1.cshtml",
-              "ToolTip": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Views\\Share\\_LayoutPage1.cshtml",
-              "RelativeToolTip": "QuanLyTaiSan_UserManagement\\Views\\Share\\_LayoutPage1.cshtml",
-              "ViewState": "AQIAAKUAAAAAAAAAAAAAALIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-09T06:15:22.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "QuanLyTaiSan_UserManagement\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "QuanLyTaiSan_UserManagement\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-09T06:14:35.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login_New.cshtml",
-              "DocumentMoniker": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Views\\Account_App_New\\Login_New.cshtml",
-              "RelativeDocumentMoniker": "QuanLyTaiSan_UserManagement\\Views\\Account_App_New\\Login_New.cshtml",
-              "ToolTip": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Views\\Account_App_New\\Login_New.cshtml",
-              "RelativeToolTip": "QuanLyTaiSan_UserManagement\\Views\\Account_App_New\\Login_New.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-09T06:10:28.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "DeviceController.cs",
               "DocumentMoniker": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Controllers\\DeviceController.cs",
               "RelativeDocumentMoniker": "QuanLyTaiSan_UserManagement\\Controllers\\DeviceController.cs",
               "ToolTip": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Controllers\\DeviceController.cs",
               "RelativeToolTip": "QuanLyTaiSan_UserManagement\\Controllers\\DeviceController.cs",
-              "ViewState": "AQIAAGADAAAAAAAAAAAAAHsDAAAfAAAA",
+              "ViewState": "AQIAAMMAAAAAAAAAAAAwwNkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T05:56:22.273Z"
+              "WhenOpened": "2024-03-10T05:44:03.036Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": ".NETFramework,Version=v4.8.AssemblyAttributes.cs",
-              "DocumentMoniker": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\obj\\Debug\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
-              "RelativeDocumentMoniker": "QuanLyTaiSan_UserManagement\\obj\\Debug\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
-              "ToolTip": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\obj\\Debug\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
-              "RelativeToolTip": "QuanLyTaiSan_UserManagement\\obj\\Debug\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T05:56:03.173Z"
+              "DocumentIndex": 1,
+              "Title": "EditDevice.cshtml",
+              "DocumentMoniker": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Views\\Device\\EditDevice.cshtml",
+              "RelativeDocumentMoniker": "QuanLyTaiSan_UserManagement\\Views\\Device\\EditDevice.cshtml",
+              "ToolTip": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Views\\Device\\EditDevice.cshtml",
+              "RelativeToolTip": "QuanLyTaiSan_UserManagement\\Views\\Device\\EditDevice.cshtml",
+              "ViewState": "AQIAAJ8CAAAAAAAAAAAAALQCAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-10T05:43:59.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Web.config",
-              "RelativeDocumentMoniker": "QuanLyTaiSan_UserManagement\\Web.config",
-              "ToolTip": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Web.config",
-              "RelativeToolTip": "QuanLyTaiSan_UserManagement\\Web.config",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAFYAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-03-09T05:54:56.486Z",
+              "DocumentIndex": 2,
+              "Title": "ManagerTypeParent.cshtml",
+              "DocumentMoniker": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Views\\Device\\ManagerTypeParent.cshtml",
+              "RelativeDocumentMoniker": "QuanLyTaiSan_UserManagement\\Views\\Device\\ManagerTypeParent.cshtml",
+              "ToolTip": "D:\\LTWEB\\DATN_QLTSCongTy\\QuanLyTaiSan_UserManagement\\Views\\Device\\ManagerTypeParent.cshtml",
+              "RelativeToolTip": "QuanLyTaiSan_UserManagement\\Views\\Device\\ManagerTypeParent.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-10T05:41:01.956Z",
               "EditorCaption": ""
             }
           ]

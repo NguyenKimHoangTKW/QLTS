@@ -58,8 +58,8 @@
                         <tr>
                             <th><input type="checkbox" id="checkAll" name="check" /></th>
                             <th>Người yêu cầu</th>
-                            <th>Ngày yêu cầu </th>
-             
+                            <th>Ngày yêu cầu sử dụng</th>
+                            <th>Ngày muốn sử dụng</th>
                             <th class="hidden-phone">Tên thiết bị </th>
                             <th class="hidden-phone">Kiểu thiết bị </th>
                             <th>Số lượng</th>
@@ -78,6 +78,7 @@
                                 <td class="center" style="width:2%"><input type="checkbox" class="checkbox check" name="check" value="@item.Id" /></td>
                                 <td style="width:12%">@item.FullName</td>
                                 <td style="width:9%" class="center">@String.Format("{0:dd/MM/yyyy}", item.DateOfRequest)</td>
+                                <td style="width:9%" class="center">@String.Format("{0:dd/MM/yyyy}", item.DateOfUse)</td>
                                 @*<td class="center hidden-phone">@String.Format("{0:dd/MM/yyyy}", item.DateOfUse)</td>*@
                                 <td style="width:9%" class="hidden-phone">@item.DeviceName</td>
                                 <td style="width:11%" class="hidden-phone">@item.TypeName</td>
